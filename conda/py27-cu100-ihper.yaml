@@ -1,0 +1,14 @@
+name: ihper
+dependencies:
+  - python=2.7
+  - cudatoolkit=10.0
+  - pytorch::pytorch=1.4.0
+  - pytorch::torchvision
+  - bioconda::gnuplot-py
+  - pip
+  - pip:
+    - dlib
+    - git+ssh://git@gitlab.idiap.ch/mummer/pytopenface
+    - git+ssh://git@gitlab.idiap.ch/rsiegfried/vfoa.git
+    - git+ssh://git@gitlab.idiap.ch/mummer/archs
+    - git+ssh://git@gitlab.idiap.ch/mummer/apkit
